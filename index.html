@@ -1,0 +1,26 @@
+<html>
+    <meta charset="utf-8">
+
+    <head>
+        <link rel="stylesheet" href="./styles/myStyle.css">
+        <script src="http://colorbrewer2.org/export/colorbrewer.js"></script>
+        <script src='./scripts/d3.min.js'></script>
+        <script src="http://d3js.org/topojson.v1.min.js"></script>
+        <script src="./scripts/d3-tip.js"></script>
+    </head>
+    <body>
+        <div class="title">
+                <h1 class> San Francisco Food Map</h1>
+                <h5 style> (Please refresh the page if nothing appears on the map) </h>
+        </div>
+        <div id='myTooltip'></div>
+        <div class="layout">
+            <div id = "map" style=" width:65%;float:left">
+                <div id="subtitle"></div>
+            </div>
+            <div id='info' class="information"></div>
+        </div>
+        <script src='./scripts/main.js'></script>
+    </body>
+    
+</html>

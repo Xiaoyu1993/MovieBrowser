@@ -1,0 +1,37 @@
+#myTooltip {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow-x: visible;
+    overflow-y: visible;
+    background-color: lightgrey;
+}
+
+.title{
+    text-align: center;
+}
+
+.layout{
+    vertical-align: top;
+}
+
+.information{
+    font-family: Arial, Helvetica, sans-serif;  
+    width: 35%;
+    float: right; 
+    white-space: pre; 
+    word-break: break-all;
+}
+
+.img{
+    text-align:center;
+    font-size: 20
+}
+
+.main{
+    text-align: left;
+    font-size: 20;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
