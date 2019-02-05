@@ -5,14 +5,66 @@
         <link rel="stylesheet" href="./styles/myStyle.css">
         <script src="http://colorbrewer2.org/export/colorbrewer.js"></script>
         <script src='./scripts/d3.min.js'></script>
-        <script src="http://d3js.org/topojson.v1.min.js"></script>
-        <script src="./scripts/d3-tip.js"></script>
+        <script src='./scripts/d3.layout.cloud.js'></script>
     </head>
     <body>
-        <div class="title">
-                <h1 class> San Francisco Food Map</h1>
-                <h5 style> (Please refresh the page if nothing appears on the map) </h>
+        <script src='./scripts/main.js'></script>
+        <div class="header">
+            <h1>Movie Browser</h1>
         </div>
+        <div class="topnav">
+            <a href="#" >Guess You Like</a>
+            <a href="#" >Calendar</a>
+            <a href="#" >Overview</a>
+        </div>
+        
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="card">
+                    <h2 id="title">TITLE HEADING</h2>
+                    <div id="wordcloud" class="fakeimg" style="height:300px;"></div>
+                    <p id="tag">Some text..</p>
+                    <p id="description" style="text-align: justify">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+                <!--div class="card">
+                    <h2>TITLE HEADING</h2>
+                    <h5>Title description, Sep 2, 2017</h5>
+                    <div class="fakeimg" style="height:200px;">Image</div>
+                    <p style="float:right">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div-->
+            </div>
+            <!--div class="rightcolumn">
+                <div class="card">
+                    <h2>About Me</h2>
+                    <div class="fakeimg" style="height:100px;">Image</div>
+                    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+                </div>
+                <div class="card">
+                    <h3>Popular Post</h3>
+                    <div class="fakeimg"><p>Image</p></div>
+                    <div class="fakeimg"><p>Image</p></div>
+                    <div class="fakeimg"><p>Image</p></div>
+                </div>
+                <div class="card">
+                    <h3>Follow Me</h3>
+                    <p>Some text..</p>
+                </div>
+            </div>
+        </div-->
+        
+        <!--div class="footer">
+            <h2>Produced by Xiaoyu Zhang (916683582)</h2>
+        </div-->
+    </body>
+    <!--body>
+        <div class="title">
+                <h1> Movie Browser </h1>
+                <h5> (Please refresh the page if nothing appears on the map) </h>
+        </div>
+
+        <div id='wordcloud' class='main'>
+        </div>
+
         <div id='myTooltip'></div>
         <div class="layout">
             <div id = "map" style=" width:65%;float:left">
@@ -21,6 +73,6 @@
             <div id='info' class="information"></div>
         </div>
         <script src='./scripts/main.js'></script>
-    </body>
+    </body-->
     
 </html>
