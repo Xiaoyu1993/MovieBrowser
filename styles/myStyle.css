@@ -18,6 +18,7 @@
   .topnav {
     overflow: hidden;
     background-color: rgb(243, 247, 243);
+    font-size:15px;
   }
   
   /* Style the topnav links */
@@ -40,15 +41,20 @@
   /* Left column */
   .leftcolumn {   
     float: left;
-    width: 40%;
+    width: 30%;
     padding-left: 22px;
     text-align: center;
+    background-color: white;
+    padding: 5px;
+    margin-top: 5px;
+    height: 50%;
+    font-size:15px;
   }
   
   /* Right column */
   .rightcolumn {
-    float: left;
-    width: 25%;
+    float: right;
+    width: 60%;
     background-color: #f1f1f1;
     padding-left: 5px;
   }
@@ -60,13 +66,6 @@
     padding: 0px;
     float:right;
     float: top;
-  }
-  
-  /* Add a card effect for articles */
-  .card {
-    background-color: white;
-    padding: 5px;
-    margin-top: 5px;
   }
   
   /* Clear floats after the columns */
@@ -85,6 +84,14 @@
     margin-top: 10px;
     float: bottom;
   }
+
+  .recommend {
+    font-size:12px;
+    padding: 5px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 10px;
+  }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 800px) {
@@ -100,4 +107,50 @@
       float: none;
       width: 100%;
     }
+  }
+
+  body {
+    font: 10px sans-serif;
+    shape-rendering: crispEdges;
+  }
+  
+  .day {
+    fill: #fff;
+    stroke: #ccc;
+  }
+  
+  .month {
+    fill: none;
+    stroke: #000;
+    stroke-width: 2px;
+  }
+  
+  .RdYlGn .q0-11{fill:rgb(165,0,38)}
+  .RdYlGn .q1-11{fill:rgb(215,48,39)}
+  .RdYlGn .q2-11{fill:rgb(244,109,67)}
+  .RdYlGn .q3-11{fill:rgb(253,174,97)}
+  .RdYlGn .q4-11{fill:rgb(254,224,139)}
+  .RdYlGn .q5-11{fill:rgb(255,255,191)}
+  .RdYlGn .q6-11{fill:rgb(217,239,139)}
+  .RdYlGn .q7-11{fill:rgb(166,217,106)}
+  .RdYlGn .q8-11{fill:rgb(102,189,99)}
+  .RdYlGn .q9-11{fill:rgb(26,152,80)}
+  .RdYlGn .q10-11{fill:rgb(0,104,55)}
+
+  svg {
+    font: 13px"Avenir";
+    
+   }
+     
+  div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 70px;					
+    height: 35px;					
+    padding-top: 10px;				
+    font: 12px sans-serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
   }
